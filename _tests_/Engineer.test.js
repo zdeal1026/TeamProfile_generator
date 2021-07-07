@@ -10,6 +10,12 @@ test("Can set Github from constructor", ()=>{
 test("getRole() should return Engineer", ()=>{
     const role = "Engineer";
     const employee = new Engineer ("name", 1026, "person@site.com", "GithubRepo");
-    expect(employee.getRole())toEqual(role);
+    expect(employee.getRole()).toEqual(role);
 });
 
+test("Can get Github  repo from getGithub()", ()=>{
+    const github = "GithubRepo";
+    const employee = new Engineer ("name", 1026, "person@site.com", github);
+    console.log(employee);
+    expect(employee.getGithub()).toEqual(github);
+});
