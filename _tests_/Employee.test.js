@@ -6,7 +6,7 @@ test('Can set Employee instance', () => {
 });
 
 test('Can set name from constructor', () => {
-    const name = "Zach";
+    const name = "name";
     const newEmployee = new Employee(name);
     expect(newEmployee.name).toEqual(name);
 });
@@ -24,7 +24,7 @@ test('Can set email from constructor', () => {
 });
 
 test('Can get name via getName()', ()=> {
-    const name = "Zach";
+    const name = "name";
     const newEmployee = new Employee(name);
     expect(newEmployee.getName()).toEqual(name);
 });
