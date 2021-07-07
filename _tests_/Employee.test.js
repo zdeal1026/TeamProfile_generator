@@ -26,7 +26,7 @@ test('Can set email from constructor', () => {
 test('Can get name via getName()', ()=> {
     const name = "Zach";
     const newEmployee = new Employee(name);
-    expect(newEmployee,getName()).toEqual(name);
+    expect(newEmployee.getName()).toEqual(name);
 });
 
 test("Can get id from getId()", ()=> {
