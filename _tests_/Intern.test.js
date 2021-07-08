@@ -16,6 +16,5 @@ test("getRole() should return Intern", ()=>{
 test("Can get school  repo from getSchool()", ()=>{
     const school = "schoolName";
     const employee = new Intern ("name", 1026, "person@site.com", school);
-    //console.log(employee);
     expect(employee.getSchool()).toEqual(school);
 });

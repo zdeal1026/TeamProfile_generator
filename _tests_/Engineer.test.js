@@ -16,6 +16,5 @@ test("getRole() should return Engineer", ()=>{
 test("Can get Github  repo from getGithub()", ()=>{
     const github = "GithubRepo";
     const employee = new Engineer ("name", 1026, "person@site.com", github);
-    //console.log(employee);
     expect(employee.getGithub()).toEqual(github);
 });
