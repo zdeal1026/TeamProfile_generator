@@ -22,8 +22,6 @@
 
 * [Links](#links)
 
-*[Screenshot](#screenshot)
-
 ## Description
 
 In this project we built a team profile generator and made tests to test the application. It was very challenging and I spent alot of time on this project. There was alot of research in this project and alot of youtube videos, along with alot (and I mean alot) of trouble shooting.
